@@ -1,0 +1,67 @@
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container-fluid{
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.text-size ul li{
+    font-size: 25px;
+    font: bold;
+    margin: 20px;
+}
+
+.text-size ul li a:hover{
+    color: white;
+}
+
+.text-size ul li a{
+    color: rgb(255, 235, 56);
+}
+
+.icon{
+    margin-left: 40px;
+}
+
+.image-size{
+
+    width: 150px;
+    height: auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin: 10px;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text ul li {
+    color: white;
+}
